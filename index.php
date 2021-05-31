@@ -75,17 +75,17 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                  </div>
                  <div class="modal-body">
+                     <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Mahasiswa" name="nama" required>
+                     </div>
+                     <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">NIM</label>
+                        <input type="text" class="form-control" id="NIM" placeholder="Masukkan NIM Mahasiswa" name="nim" required>
+                     </div>
                  <div class="mb-3">
-                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                 </div>
-                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                 </div>
-                 <div class="mb-3">
-                     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> 
+                     <label for="Alamat" class="form-label">Example textarea</label>
+                     <textarea type="text" class="form-control" id="Alamat" placeholder="Masukkan Alamat Mahasiswa" name="alamat" required></textarea> 
                  </div>
                  </div>
                  <div class="modal-footer">
