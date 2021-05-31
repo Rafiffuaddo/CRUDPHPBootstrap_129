@@ -51,7 +51,7 @@
                         <!-- form control -->
                         <div class="mb-3">
                             <!-- input nama -->
-                            <label for="nama" class="form-label">Nama</label>
+                            <label for="nama" class="form-label">name</label>
                             <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Siswa" name="nama" required>
                         </div>
                         <div class="mb-3">
