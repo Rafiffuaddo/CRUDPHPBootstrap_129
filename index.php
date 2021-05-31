@@ -103,7 +103,30 @@
                 while($data = mysqli_fetch_array($mahasiswa)){
         
                 ?>
-                    
+                    <!-- menampilkan data makasiswa ke dalam tabel -->
+                    <tr>
+                        <!-- increment nomor baris $no++ -->
+                        <td><?php echo $no++ ?></td>
+
+                        <!-- menampilkan data -->
+                        <td><?php echo $data['nama'] ?></td>
+                        <td><?php echo $data['nim'] ?></td>
+                        <td><?php echo $data['alamat'] ?></td>
+
+                        <!-- kolom ini untuk aksi data mahasiswa -->
+
+                        <td>
+                        
+                            <a href="edit.php?id=<?php echo $data['id']; ?>" 
+                            class="btn btn-warning btn-sm text-white">EDIT</a>
+
+                            <!-- link untuk delete berdasarkan id, akan keluar confirm terlebih dahulu -->
+
+                            <a href="delete.php?id=<?php echo $data['id']; ?>" 
+                            class="btn btn-danger btn-sm" onclick="return confirm('anda yakin akan menghapus data mahasiswa ini?')">HAPUS</a>
+                
+                        </td>
+                    </tr>
             
                 <?php
                 }
@@ -123,8 +146,6 @@
         $('#tabelMahasiswa').DataTable();
         });
     </script>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 </body>
