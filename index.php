@@ -69,27 +69,33 @@
             <div class="modal fade" id="tambahData" tabindex="-1" aria-labelledby="tambahDataLabel" aria-hidden="true">
              <div class="modal-dialog">
                  <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+                 <form method="post" action="store.php" name="form">
+                 <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                 <div class="mb-3">
+                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                 </div>
+                 <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                 </div>
+                 <div class="mb-3">
+                     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> 
+                 </div>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     <button type="submit" class="btn btn-primary" value="SIMPAN">Tambah</button>
+                 </div>
+                 </div>
+            </form>
+        </div>
     </div>
-  </div>
 </div>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
-        </body> 
-        </html>
+</body>      
+</html>
