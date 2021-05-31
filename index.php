@@ -103,34 +103,7 @@
                 while($data = mysqli_fetch_array($mahasiswa)){
         
                 ?>
-                    <!-- menampilkan data makasiswa ke dalam tabel -->
-                    <tr>
-                        <!-- increment nomor baris $no++ -->
-                        <td><?php echo $no++ ?></td>
-
-                        <!-- menampilkan data -->
-                        <td><?php echo $data['nama'] ?></td>
-                        <td><?php echo $data['nim'] ?></td>
-                        <td><?php echo $data['alamat'] ?></td>
-
-                        <!-- kolom ini untuk aksi data mahasiswa -->
-
-                        <td>
-                            <!-- aksi edit dan delete, di sini menggunakan btn-sm agar tombolnya kecil-->
-                            <!-- link untuk masuk ke halaman edit -->
-                            <!-- edit.php?id=<
-                            ?php echo $data['id']; ?> mengirim id data mahasiswa ke halaman edit -->
                     
-                            <a href="edit.php?id=<?php echo $data['id']; ?>" 
-                            class="btn btn-warning btn-sm text-white">EDIT</a>
-
-                            <!-- link untuk delete berdasarkan id, akan keluar confirm terlebih dahulu -->
-
-                            <a href="delete.php?id=<?php echo $data['id']; ?>" 
-                            class="btn btn-danger btn-sm" onclick="return confirm('anda yakin akan menghapus data mahasiswa ini?')">HAPUS</a>
-                
-                        </td>
-                    </tr>
             
                 <?php
                 }
