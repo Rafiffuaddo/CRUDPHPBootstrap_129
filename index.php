@@ -109,9 +109,9 @@
                         <td><?php echo $no++ ?></td>
 
                         <!-- menampilkan data -->
-                        <td><?php echo $data['nama'] ?></td>
-                        <td><?php echo $data['nim'] ?></td>
-                        <td><?php echo $data['alamat'] ?></td>
+                        <td><?php echo $data['NAMA'] ?></td>
+                        <td><?php echo $data['NIM'] ?></td>
+                        <td><?php echo $data['ALAMAT'] ?></td>
 
                         <!-- kolom ini untuk aksi data mahasiswa -->
                         <td>
