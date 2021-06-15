@@ -18,7 +18,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="create.php">Tambah Mahasiswa</a>
+            <a class="nav-link active" aria-current="page" href="store.php">Tambah Mahasiswa</a>
             <a class="nav-link" href="#">Features</a>
             <a class="nav-link" href="#">Pricing</a>
           </div>
@@ -37,7 +37,7 @@
         <div class="modal fade" id="tambahData" tabindex="-1" aria-labelledby="tambahDataLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                   <form method="post" action="store.php" name="form">
+                   <form method="post" action="create.php" name="form">
                         <div class="modal-header">
                             <h5 class="modal-title" id="tambahDataLabel">Modal title</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -93,7 +93,7 @@
                   <td><?php echo $data['NIM']; ?> </td>
                   <td><?php echo $data['ALAMAT']; ?> </td>
                   <td>
-                      <a href= "detail.php?id=<?php echo $data['ID']; ?>" class= "btn btn-success btn-sm text-white">DETAIL</a>                    
+                      <a href="detail.php?id=<?php echo $data['ID']; ?>" class= "btn btn-success btn-sm text-white">DETAIL</a>
                       <a href="edit.php?id=<?php echo $data['ID']; ?>" class= "btn btn-warning btn-sm text-white">EDIT</a>
                       <a href="delete.php?id=<?php echo $data['ID']; ?>" class= "btn btn-danger btn-sm" onclick="return confirm('Anda yakin akan menghapus data mahasiswa ini?')">HAPUS</a>
                   </td>
