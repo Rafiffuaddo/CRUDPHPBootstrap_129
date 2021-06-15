@@ -41,19 +41,19 @@
                     <div class="card-body fw-bold">
                     <form method="post" action="update.php">
                             <div class="mb-3">
-                                <input type="hidden" class="form-control" name="ID" value="<?php echo $data['id']; ?>">
+                                <input type="hidden" class="form-control" name="id" value="<?php echo $data['ID']; ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="nama" class="form-label">Nama</label>
-                                <input type="text" class="form-control" id="NAMA" placeholder="Masukkan Nama Mahasiswa" name="nama" value="<?php echo $data['nama']; ?>">
+                                <input type="text" class="form-control" id="Nama" placeholder="Masukkan Nama Mahasiswa" name="NAMA" value="<?php echo $data['nama']; ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="nim" class="form-label">NIM</label>
-                                <input type="text" class="form-control" id="NIM" placeholder="Masukkan NIM Mahasiswa" name="nim" value="<?php echo $data['nim']; ?>">
+                                <input type="text" class="form-control" id="NIM" placeholder="Masukkan NIM Mahasiswa" name="NIM" value="<?php echo $data['nim']; ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="alamat" class="form-label">Alamat</label>
-                                <input type="text" class="form-control" id="ALAMAT" placeholder="Masukkan Alamat Mahasiswa" name="alamat" value="<?php echo $data['alamat']; ?>">
+                                <input type="text" class="form-control" id="ALAMAT" placeholder="Masukkan Alamat Mahasiswa" name="ALAMAT" value="<?php echo $data['alamat']; ?>">
                             </div>
                             <button type="submit" class="btn btn-primary" value="SIMPAN">Update</button>
                         </form>
