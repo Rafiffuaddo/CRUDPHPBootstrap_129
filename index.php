@@ -92,7 +92,6 @@
                   <td><?php echo $data['NAMA']; ?> </td>
                   <td><?php echo $data['NIM']; ?> </td>
                   <td><?php echo $data['ALAMAT']; ?> </td>
-                  <button class="btn btn-primary">Cetak</button>
                   <td>
                       <a href= "detail.php?id=<?php echo $data['ID']; ?>" class= "btn btn-success btn-sm text-white">DETAIL</a>                    
                       <a href="edit.php?id=<?php echo $data['ID']; ?>" class= "btn btn-warning btn-sm text-white">EDIT</a>
