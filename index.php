@@ -37,7 +37,7 @@
         <div class="modal fade" id="tambahData" tabindex="-1" aria-labelledby="tambahDataLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                   <form method="post" action="create.php" name="form">
+                   <form method="post" action="store.php" name="form">
                         <div class="modal-header">
                             <h5 class="modal-title" id="tambahDataLabel">Modal title</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
