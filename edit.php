@@ -29,7 +29,7 @@
     <?php
         include 'config.php';
         $id = $_GET['ID'];
-        $mahasiswa = mysqli_query($koneksi, "select * from mahasiswa where id='$id'");
+        $mahasiswa = mysqli_query($koneksi, "select * from mahasiswa where ID='$id'");
         while ($data = mysqli_fetch_assoc($mahasiswa)){
         ?>
             <div class="container mt-5">
