@@ -45,15 +45,15 @@
                             </div>
                             <div class="mb-3">
                                 <label for="nama" class="form-label">Nama</label>
-                                <input type="text" class="form-control" id="NAMA" placeholder="Masukkan Nama Mahasiswa" name="NAMA" value="<?php echo $data['NAMA']; ?>">
+                                <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Mahasiswa" name="NAMA" value="<?php echo $data['NAMA']; ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="nim" class="form-label">NIM</label>
-                                <input type="text" class="form-control" id="NIM" placeholder="Masukkan NIM Mahasiswa" name="NIM" value="<?php echo $data['NIM']; ?>">
+                                <input type="text" class="form-control" id="nim" placeholder="Masukkan NIM Mahasiswa" name="NIM" value="<?php echo $data['NIM']; ?>">
                             </div>
                             <div class="mb-3">
                                 <label for="alamat" class="form-label">Alamat</label>
-                                <input type="text" class="form-control" id="ALAMAT" placeholder="Masukkan Alamat Mahasiswa" name="ALAMAT" value="<?php echo $data['ALAMAT']; ?>">
+                                <input type="text" class="form-control" id="alamat" placeholder="Masukkan Alamat Mahasiswa" name="ALAMAT" value="<?php echo $data['ALAMAT']; ?>">
                             </div>
                             <button type="submit" class="btn btn-primary" value="SIMPAN">Update</button>
                         </form>
