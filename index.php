@@ -89,12 +89,12 @@
             ?>
               <tr>
                   <td><?php echo $no++; ?> </td>
-                  <td><?php echo $data['nama']; ?> </td>
-                  <td><?php echo $data['nim']; ?> </td>
-                  <td><?php echo $data['alamat']; ?> </td>
+                  <td><?php echo $data['NAMA']; ?> </td>
+                  <td><?php echo $data['NIM']; ?> </td>
+                  <td><?php echo $data['ALAMAT']; ?> </td>
                   <td>
-                      <a href="edit.php?id=<?php echo $data['id']; ?>" class= "btn btn-warning btn-sm text-white">EDIT</a>
-                      <a href="delete.php?id=<?php echo $data['id']; ?>" class= "btn btn-danger btn-sm" onclick="return confirm('Anda yakin akan menghapus data mahasiswa ini?')">HAPUS</a>
+                      <a href="edit.php?id=<?php echo $data['ID']; ?>" class= "btn btn-warning btn-sm text-white">EDIT</a>
+                      <a href="delete.php?id=<?php echo $data['ID']; ?>" class= "btn btn-danger btn-sm" onclick="return confirm('Anda yakin akan menghapus data mahasiswa ini?')">HAPUS</a>
                   </td>
               </tr>
             <?php
