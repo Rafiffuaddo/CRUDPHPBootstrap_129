@@ -93,9 +93,9 @@
                   <td><?php echo $data['NIM']; ?> </td>
                   <td><?php echo $data['ALAMAT']; ?> </td>
                   <td>
-                      <a href="detail.php?id=<?php echo $data['ID']; ?>" class= "btn btn-success btn-sm text-white">DETAIL</a>
-                      <a href="edit.php?id=<?php echo $data['ID']; ?>" class= "btn btn-warning btn-sm text-white">EDIT</a>
-                      <a href="delete.php?id=<?php echo $data['ID']; ?>" class= "btn btn-danger btn-sm" onclick="return confirm('Anda yakin akan menghapus data mahasiswa ini?')">HAPUS</a>
+                      <a href="detail.php?ID=<?php echo $data['ID']; ?>" class= "btn btn-success btn-sm text-white">DETAIL</a>
+                      <a href="edit.php?ID=<?php echo $data['ID']; ?>" class= "btn btn-warning btn-sm text-white">EDIT</a>
+                      <a href="delete.php?ID=<?php echo $data['ID']; ?>" class= "btn btn-danger btn-sm" onclick="return confirm('Anda yakin akan menghapus data mahasiswa ini?')">HAPUS</a>
                   </td>
               </tr>
             <?php
